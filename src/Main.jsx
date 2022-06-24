@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = () => {
   return (
-    <main className='font-quicksand text-xl'>
+    <main className='text-xl font-quicksand mx-'>
       <p className=''>Hey, and welcome.</p>
       <p>
         I'm <span className='font-bold'>Ray Zeaiter</span>, a
