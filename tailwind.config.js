@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         quicksand: ["Quicksand", "sans-serif"],
         noto: ["Noto Emoji", "sans-serif"],
+        mono: ["DM Mono", "monospace"],
       },
       colors: {
         LinkedIn: "#0072b1",

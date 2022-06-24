@@ -16,7 +16,7 @@ const portfolioEntries = [
     id: 2,
     title: "Tradesman Website",
     description:
-      "A fully responsive website made for a local tradesman, featuring a (what I think to be) a unique hero section.",
+      "A fully responsive website made for a local tradesman, featuring a (what I think to be) a unique hero section. ",
     tools: ["tailwind"],
     imgSrc: stoneScreenshot,
     srcCode: "",
