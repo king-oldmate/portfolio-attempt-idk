@@ -1,5 +1,5 @@
-import cdlScreenshot from "./images/cdl-wide.png";
-import stoneScreenshot from "./images/stone-wide.png";
+import cdlScreenshot from "./images/cdl-full.jpg";
+import stoneScreenshot from "./images/stone-full.jpg";
 
 const portfolioEntries = [
   {
@@ -10,7 +10,7 @@ const portfolioEntries = [
     tools: ["react", "tailwind"],
     imgSrc: cdlScreenshot,
     srcCode: "",
-    liveLink: "https://clairdelunetrio-sydney.netlify.app/",
+    url: "https://clairdelunetrio-sydney.netlify.app/",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const portfolioEntries = [
     tools: ["tailwind"],
     imgSrc: stoneScreenshot,
     srcCode: "",
-    liveLink: "https://antonios-zeaiter-sydney-stonemason.netlify.app/",
+    url: "https://antonios-zeaiter-sydney-stonemason.netlify.app/",
   },
 ];
 

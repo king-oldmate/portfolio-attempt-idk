@@ -1,5 +1,6 @@
 import React from "react";
 import entries from "./portfolioEntries";
+import { RiGithubLine, RiExternalLinkLine } from "react-icons/ri";
 
 const Portfolio = () => {
   console.log(entries);
@@ -8,7 +9,7 @@ const Portfolio = () => {
       Portfolio
       <article className='flex flex-col items-center justify-center md:flex-row'>
         {entries.map((entry) => {
-          const { title, id, imgSrc } = entry;
+          const { title, id, imgSrc, srcCode, url, description } = entry;
           return (
             <div key={id}>
               {title}
@@ -17,6 +18,15 @@ const Portfolio = () => {
                 alt={title}
                 className='aspect-[4/3] w-80 object-cover object-top hover:object-bottom transition-all duration-[5000ms]'
               />
+              <div className=''>
+                <a href={srcCode}>
+                  <RiGithubLine className='inline' /> Source
+                </a>
+                <a href={url}>
+                  <RiExternalLinkLine className='inline' /> Live
+                </a>
+              </div>
+              <p>{description}</p>
             </div>
           );
         })}
