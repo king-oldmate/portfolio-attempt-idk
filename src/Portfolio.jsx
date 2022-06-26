@@ -21,7 +21,7 @@ const Portfolio = () => {
               <img
                 src={imgSrc}
                 alt={title}
-                className='aspect-[4/3] w-full object-cover object-top hover:object-bottom transition-all duration-1000 hover:duration-[5000ms] mx-auto rounded-sm mb-5'
+                className='max-h-[270px] w-full object-cover object-top hover:object-bottom transition-all duration-1000 hover:duration-[5000ms] mx-auto rounded-sm mb-5'
               />
               {/* <h2 className='text-lg font-semibold'>{title}</h2> */}
               <div className='mx-auto font-mono text-white w-fit'>
