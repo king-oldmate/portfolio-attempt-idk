@@ -1,11 +1,10 @@
 import React from "react";
-import { VscFilePdf } from "react-icons/vsc";
 
 const Main = () => {
   return (
-    <main className='mx-auto text-xl max-w-7xl font-quicksand'>
+    <main className='max-w-4xl mx-auto text-xl font-quicksand'>
       <p
-        className='pt-3 text-6xl font-bold font-noto hover:text-yellow-500 transition-[color] duration-500 mb-5'
+        className='pt-3 text-6xl font-bold font-noto hover:text-yellow-500 transition-[color] duration-500 mb-5 cursor-default'
         title='(H)'
       >
         😎
@@ -21,22 +20,19 @@ const Main = () => {
         . I'm based in Sydney, Australia, and I'm currently looking for work
         opportunities, including freelance.
       </p>
-
-      <p className='mb-5'>
-        Need a website built?{" "}
-        <button className='px-4 py-2 ml-2 font-mono text-white rounded-md bg-sky-500 w-fit blue-btn'>
+      {/* <div className='text-center'>
+        <p className='mb-2'>Need a website built?</p>
+        <button className='px-4 py-2 mb-5 ml-2 font-mono text-white rounded-md bg-sky-500 w-fit blue-btn'>
           Find out what I can do for you.
         </button>
-      </p>
-      <p>
-        Otherwise, here's my
+        <p className='mb-2'>Otherwise, here's my</p>
         <button className='px-4 py-1 ml-2 font-mono text-white rounded-md bg-sky-500 w-fit blue-btn'>
           <span className='inline-block mr-2 text-2xl translate-y-1'>
             <VscFilePdf />
           </span>
           Curriculum Vitae
         </button>
-      </p>
+      </div> */}
     </main>
   );
 };

@@ -5,3 +5,7 @@
 .blue-btn {
   @apply bg-sky-500 border-sky-500 border-2  hover:bg-white hover:text-sky-500 transition-[color,_background-color] duration-300;
 }
+
+body {
+  @apply bg-slate-50 text-slate-700 font-quicksand;
+}

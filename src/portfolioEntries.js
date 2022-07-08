@@ -9,7 +9,7 @@ const portfolioEntries = [
     title: "Band Website",
     description:
       "A fully responsive website made for a local Sydney Classical trio, featuring a music player for visitors.",
-    tools: ["react", "tailwind"],
+    tools: ["html5", "react", "tailwind"],
     imgSrc: cdlScreenshot,
     srcCode: "https://github.com/king-oldmate/CDL-trio-website",
     url: "https://clairdelunetrio-sydney.netlify.app/",
@@ -19,7 +19,8 @@ const portfolioEntries = [
     title: "Tradesman Website",
     description:
       "A fully responsive website made for a local tradesman, featuring a (what I think to be) a unique hero section. ",
-    tools: ["tailwind"],
+    tools: ["html5", "tailwind", "js"],
+
     imgSrc: stoneScreenshot,
     srcCode: null,
     url: "https://antonios-zeaiter-sydney-stonemason.netlify.app/",
@@ -29,7 +30,7 @@ const portfolioEntries = [
     title: "Full-stack web app",
     description:
       "A web app that allows users to view (on a map) and submit location data on duck habitats. I developed the backend using Node.js and store the submitted data on MongoDB.",
-    tools: ["tailwind", "react", "node.js", "mongodb"],
+    tools: ["html5", "tailwind", "react", "node.js", "mongodb"],
     imgSrc: fdfScreenshot,
     srcCode: "https://github.com/king-oldmate/free-duck-finder",
     url: "https://freeduckfinder.online/",
@@ -39,7 +40,7 @@ const portfolioEntries = [
     title: "Job listings with filtering solution",
     description:
       "A full responsive web component that takes JSON data and parses it to a page of job listings. Of special note are the tags, which when clicked, filter the listed jobs accordingly.",
-    tools: ["tailwind", "react"],
+    tools: ["html5", "tailwind", "react"],
     imgSrc: filterFull,
     srcCode: "https://github.com/king-oldmate/FEM-job-listing-with-filter",
     url: "https://62c57eda52322200087e777b--superb-kashata-bdd2c6.netlify.app/",

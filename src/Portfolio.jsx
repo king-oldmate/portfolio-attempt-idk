@@ -1,22 +1,22 @@
 import React from "react";
 import entries from "./portfolioEntries";
 import { RiGithubLine, RiExternalLinkLine } from "react-icons/ri";
+import Technologies from "./Technologies";
 
 const Portfolio = () => {
-  console.log(entries);
   return (
     <section className='mx-auto max-w-7xl'>
-      <p className='text-xl'>
+      {/* <p className='text-xl'>
         Here, have a look at some of my work.{" "}
         <span className='text-2xl font-noto'>👀</span>
-      </p>
-      <article className='flex flex-wrap items-center justify-center gap-5 mt-5 sm:items-stretch sm:flex-row'>
+      </p> */}
+      <section className='flex flex-wrap items-center justify-center gap-5 mt-5 sm:items-stretch sm:flex-row'>
         {entries.map((entry) => {
-          const { title, id, imgSrc, srcCode, url, description } = entry;
+          const { title, id, tools, imgSrc, srcCode, url, description } = entry;
           return (
             <div
               key={id}
-              className='text-center duration-5000 rounded-sm shadow-md transition-[box-shadow] w-[360px] shrink-0 hover:shadow-lg space-y-3'
+              className='text-center duration-5000 rounded-sm shadow-md transition-[box-shadow] w-[360px] shrink-0 hover:shadow-lg space-y-3 bg-white'
             >
               <img
                 src={imgSrc}
@@ -29,6 +29,7 @@ const Portfolio = () => {
                   <a
                     href={srcCode}
                     target='_blank'
+                    rel='noreferrer'
                     className='py-2 pl-4 pr-2 border-r-0 rounded-l-md blue-btn'
                   >
                     <RiGithubLine className='inline -translate-y-0.5' /> Source
@@ -36,6 +37,7 @@ const Portfolio = () => {
                   <a
                     href={url}
                     target='_blank'
+                    rel='noreferrer'
                     className='py-2 pl-2 pr-4 border-2 border-l-0 rounded-r-md border-sky-500 blue-btn'
                   >
                     <RiExternalLinkLine className='inline -translate-y-0.5' />{" "}
@@ -47,6 +49,7 @@ const Portfolio = () => {
                   <a
                     href={url}
                     target='_blank'
+                    rel='noreferrer'
                     className='py-2 pl-2 pr-4 border-2 rounded-md border-sky-500 blue-btn'
                   >
                     <RiExternalLinkLine className='inline -translate-y-0.5' />{" "}
@@ -54,12 +57,12 @@ const Portfolio = () => {
                   </a>
                 </div>
               )}
-
-              <p className='px-6 pt-2 pb-4 text-left'>{description}</p>
+              <Technologies tools={tools} />
+              <p className='px-6 pb-4 text-left'>{description}</p>
             </div>
           );
         })}
-      </article>
+      </section>
     </section>
   );
 };
