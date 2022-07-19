@@ -25,8 +25,11 @@ const Technologies = ({ tools }) => {
       {tools.map((tool, index) => {
         console.log(tool);
         return (
-          <div key={tool} className=''>
-            <span title={tool.toUpperCase()}>{techList[tool]}</span>
+          <div key={tool} className='flex flex-wrap gap-x-1'>
+            {techList[tool]}
+            <span className='text-xs' title={tool.toUpperCase()}>
+              {tool.toUpperCase()}
+            </span>
           </div>
         );
       })}
