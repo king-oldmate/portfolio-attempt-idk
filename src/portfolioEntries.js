@@ -6,6 +6,16 @@ import filterFull from "./images/filter-full.jpg";
 const portfolioEntries = [
   {
     id: 1,
+    title: "Full-stack web app",
+    description:
+      "A web app that allows users to view (on a map) and submit location data on duck habitats. I developed the backend using Node.js and store the submitted data on MongoDB.",
+    tools: ["html5", "tailwind", "react", "node.js", "mongodb"],
+    imgSrc: fdfScreenshot,
+    srcCode: "https://github.com/king-oldmate/free-duck-finder",
+    url: "https://freeduckfinder.online/",
+  },
+  {
+    id: 2,
     title: "Band Website",
     description:
       "A fully responsive website made for a local Sydney Classical trio, featuring a music player for visitors.",
@@ -15,7 +25,7 @@ const portfolioEntries = [
     url: "https://clairdelunetrio-sydney.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Tradesman Website",
     description:
       "A fully responsive website made for a local tradesman, featuring a (what I think to be) a unique hero section. ",
@@ -25,16 +35,7 @@ const portfolioEntries = [
     srcCode: null,
     url: "https://antonios-zeaiter-sydney-stonemason.netlify.app/",
   },
-  {
-    id: 3,
-    title: "Full-stack web app",
-    description:
-      "A web app that allows users to view (on a map) and submit location data on duck habitats. I developed the backend using Node.js and store the submitted data on MongoDB.",
-    tools: ["html5", "tailwind", "react", "node.js", "mongodb"],
-    imgSrc: fdfScreenshot,
-    srcCode: "https://github.com/king-oldmate/free-duck-finder",
-    url: "https://freeduckfinder.online/",
-  },
+
   {
     id: 4,
     title: "Job listings with filtering solution",
