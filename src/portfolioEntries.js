@@ -2,8 +2,19 @@ import cdlScreenshot from "./images/cdl-full.jpg";
 import stoneScreenshot from "./images/stone-full.jpg";
 import fdfScreenshot from "./images/fdf-full.jpg";
 import filterFull from "./images/filter-full.jpg";
+import gethscqsFull from "./images/gethscqs-full.jpg";
 
 const portfolioEntries = [
+  {
+    id: 5,
+    title: "Full-stack web app",
+    description:
+      "A web app for NSW HSC students that generates a random (past) HSC question for them to study based on their search criteria. Features a light and dark mode theme switcher.",
+    tools: ["html5", "css3", "react", "node.js", "json"],
+    imgSrc: gethscqsFull,
+    srcCode: null,
+    url: "https://gethscquestions.netlify.app/",
+  },
   {
     id: 1,
     title: "Full-stack web app",
@@ -40,7 +51,7 @@ const portfolioEntries = [
     id: 4,
     title: "Job listings with filtering solution",
     description:
-      "A full responsive web component that takes JSON data and parses it to a page of job listings. Of special note are the tags, which when clicked, filter the listed jobs accordingly.",
+      "A fully responsive web component that takes JSON data and parses it to a page of job listings. Of special note are the tags, which when clicked, filter the listed jobs accordingly.",
     tools: ["html5", "tailwind", "react"],
     imgSrc: filterFull,
     srcCode: "https://github.com/king-oldmate/FEM-job-listing-with-filter",

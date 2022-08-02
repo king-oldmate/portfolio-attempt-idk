@@ -6,10 +6,6 @@ import Technologies from "./Technologies";
 const Portfolio = () => {
   return (
     <section className='mx-auto max-w-7xl'>
-      {/* <p className='text-xl'>
-        Here, have a look at some of my work.{" "}
-        <span className='text-2xl font-noto'>👀</span>
-      </p> */}
       <section className='flex flex-wrap items-center justify-center gap-5 mt-5 sm:items-stretch sm:flex-row'>
         {entries.map((entry) => {
           const { title, id, tools, imgSrc, srcCode, url, description } = entry;
@@ -23,7 +19,6 @@ const Portfolio = () => {
                 alt={title}
                 className='h-[270px] w-full object-cover object-top hover:object-bottom transition-all duration-1000 hover:duration-[5000ms] mx-auto rounded-sm mb-5'
               />
-              {/* <h2 className='text-lg font-semibold'>{title}</h2> */}
               {srcCode ? (
                 <div className='mx-auto font-mono text-white w-fit'>
                   <a
@@ -58,7 +53,7 @@ const Portfolio = () => {
                 </div>
               )}
               <Technologies tools={tools} />
-              <p className='px-6 pb-4 text-left'>{description}</p>
+              <p className='px-6 pb-4 text-justify'>{description}</p>
             </div>
           );
         })}

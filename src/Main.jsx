@@ -20,19 +20,6 @@ const Main = () => {
         . I'm based in Sydney, Australia, and I'm currently looking for work
         opportunities, including freelance.
       </p>
-      {/* <div className='text-center'>
-        <p className='mb-2'>Need a website built?</p>
-        <button className='px-4 py-2 mb-5 ml-2 font-mono text-white rounded-md bg-sky-500 w-fit blue-btn'>
-          Find out what I can do for you.
-        </button>
-        <p className='mb-2'>Otherwise, here's my</p>
-        <button className='px-4 py-1 ml-2 font-mono text-white rounded-md bg-sky-500 w-fit blue-btn'>
-          <span className='inline-block mr-2 text-2xl translate-y-1'>
-            <VscFilePdf />
-          </span>
-          Curriculum Vitae
-        </button>
-      </div> */}
     </main>
   );
 };
