@@ -9,3 +9,7 @@
 body {
   @apply bg-slate-50 text-slate-700 font-quicksand;
 }
+
+.contact-input {
+  @apply border-[2px] rounded border-slate-200 px-3 py-1.5 focus:border-sky-500 focus:outline-none transition-[border-color] duration-300 ease-in-out;
+}

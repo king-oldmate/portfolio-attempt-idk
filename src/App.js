@@ -2,6 +2,7 @@ import Main from "./Main";
 import Portfolio from "./Portfolio";
 import Footer from "./Footer";
 import FreelanceProcess from "./FreelanceProcess";
+import ContactForm from "./ContactForm";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Main />
       <Portfolio />
       <FreelanceProcess />
+      <ContactForm />
       <Footer />
     </div>
   );

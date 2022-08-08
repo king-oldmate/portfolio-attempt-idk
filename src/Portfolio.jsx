@@ -45,7 +45,7 @@ const Portfolio = () => {
                     href={url}
                     target='_blank'
                     rel='noreferrer'
-                    className='py-2 pl-2 pr-4 border-2 rounded-md border-sky-500 blue-btn'
+                    className='px-4 py-2 border-2 rounded-md border-sky-500 blue-btn'
                   >
                     <RiExternalLinkLine className='inline -translate-y-0.5' />{" "}
                     Live
