@@ -25,7 +25,6 @@ const Technologies = ({ tools }) => {
   return (
     <div className='flex flex-wrap justify-center w-3/4 gap-3 pt-3 mx-auto'>
       {tools.map((tool, index) => {
-        console.log(tool);
         return (
           <div key={tool} className='flex flex-wrap gap-x-1'>
             {techList[tool]}

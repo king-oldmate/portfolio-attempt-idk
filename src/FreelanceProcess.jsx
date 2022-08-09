@@ -2,9 +2,9 @@ import React from "react";
 
 const FreelanceProcess = () => {
   return (
-    <section className='max-w-6xl mx-auto text-xl '>
+    <section className='max-w-5xl mx-auto text-xl'>
       <span>My freelance process is as follows:</span>
-      <ol className='grid justify-center gap-6 mt-3 text-lg text-center sm:grid-cols-2 lg:grid-cols-4'>
+      <ol className='grid justify-center gap-6 mt-6 mb-12 text-lg text-center sm:grid-cols-2 lg:grid-cols-4'>
         <li className='bg-white duration-5000 rounded-sm shadow-md transition-[box-shadow] hover:shadow-lg p-3'>
           <h3 className='text-xl text-sky-500'>
             Step 1: <span className='font-bold'>Consultation</span>
