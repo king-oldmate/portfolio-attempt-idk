@@ -1,6 +1,6 @@
 import React from "react";
 
-const Main = () => {
+const Info = () => {
   return (
     <main className='max-w-4xl mx-auto text-xl font-quicksand'>
       <p
@@ -24,4 +24,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Info;

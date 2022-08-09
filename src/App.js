@@ -1,16 +1,12 @@
-import Main from "./Main";
+import Info from "./Info";
 import Portfolio from "./Portfolio";
 import Footer from "./Footer";
-import FreelanceProcess from "./FreelanceProcess";
-import ContactForm from "./ContactForm";
 
 function App() {
   return (
     <div className='p-10 space-y-5 '>
-      <Main />
+      <Info />
       <Portfolio />
-      <FreelanceProcess />
-      <ContactForm />
       <Footer />
     </div>
   );
