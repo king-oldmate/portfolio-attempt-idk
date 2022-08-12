@@ -3,6 +3,7 @@ import stoneScreenshot from "./images/stone-full.jpg";
 import fdfScreenshot from "./images/fdf-full.jpg";
 import filterFull from "./images/filter-full.jpg";
 import gethscqsFull from "./images/gethscqs-full.jpg";
+import dashboard from "./images/dashboard.png";
 
 const portfolioEntries = [
   {
@@ -24,6 +25,16 @@ const portfolioEntries = [
     imgSrc: fdfScreenshot,
     srcCode: "https://github.com/king-oldmate/free-duck-finder",
     url: "https://freeduckfinder.online/",
+  },
+  {
+    id: 6,
+    title: "Time-tracking Dashboard",
+    description: "A responsive time-tracking dashboard component.",
+    tools: ["html5", "tailwind", "react", "json"],
+    imgSrc: dashboard,
+    srcCode:
+      "https://github.com/king-oldmate/frontendmentor-time-tracking-dashboard",
+    url: "https://glistening-selkie-e0c64a.netlify.app/",
   },
   {
     id: 2,
