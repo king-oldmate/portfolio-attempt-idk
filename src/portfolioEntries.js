@@ -4,6 +4,7 @@ import fdfScreenshot from "./images/fdf-full.jpg";
 import filterFull from "./images/filter-full.jpg";
 import gethscqsFull from "./images/gethscqs-full.jpg";
 import dashboard from "./images/dashboard.png";
+import countryAPI from "./images/countryrestAPI.jpg";
 
 const portfolioEntries = [
   {
@@ -25,6 +26,17 @@ const portfolioEntries = [
     imgSrc: fdfScreenshot,
     srcCode: "https://github.com/king-oldmate/free-duck-finder",
     url: "https://freeduckfinder.online/",
+  },
+  {
+    id: 7,
+    title: "REST Countries API",
+    description:
+      "A web app that utilises an API to show information on countries. Comes with a search and filter. Also has a colour theme switcher.",
+    tools: ["html5", "css3", "react"],
+    imgSrc: countryAPI,
+    srcCode:
+      "https://github.com/king-oldmate/FEM-country-rest-with-theme-switcher",
+    url: "https://gorgeous-maamoul-26d737.netlify.app/",
   },
   {
     id: 6,
