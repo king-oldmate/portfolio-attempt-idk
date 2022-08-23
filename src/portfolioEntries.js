@@ -5,6 +5,7 @@ import filterFull from "./images/filter-full.jpg";
 import gethscqsFull from "./images/gethscqs-full.jpg";
 import dashboard from "./images/dashboard.png";
 import countryAPI from "./images/countryrestAPI.jpg";
+import calculator from "./images/calculator.png";
 
 const portfolioEntries = [
   {
@@ -37,6 +38,15 @@ const portfolioEntries = [
     srcCode:
       "https://github.com/king-oldmate/FEM-country-rest-with-theme-switcher",
     url: "https://gorgeous-maamoul-26d737.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Calculator",
+    description: "A functional calculator with a built-in theme switcher.",
+    tools: ["html5", "css3", "react"],
+    imgSrc: calculator,
+    srcCode: "https://github.com/king-oldmate/calculator-fem",
+    url: "https://effulgent-snickerdoodle-a067c3.netlify.app/",
   },
   {
     id: 6,
