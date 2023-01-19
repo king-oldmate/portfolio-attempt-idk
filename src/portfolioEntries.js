@@ -6,8 +6,18 @@ import gethscqsFull from "./images/gethscqs-full.jpg";
 import dashboard from "./images/dashboard.png";
 import countryAPI from "./images/countryrestAPI.jpg";
 import calculator from "./images/calculator.png";
+import zeatarch from "./images/zeatarch.png";
 
 const portfolioEntries = [
+  {
+    id: 9,
+    title: "Architech Portfolio",
+    description: "A minimalist web portfolio for a local Sydney Architect.",
+    tools: ["html5", "css3", "javascript"],
+    imgSrc: zeatarch,
+    srcCode: null,
+    url: "https://zeatarch-preview.netlify.app",
+  },
   {
     id: 5,
     title: "Full-stack web app",
