@@ -12,7 +12,8 @@ const portfolioEntries = [
   {
     id: 9,
     title: "Architech Portfolio",
-    description: "A minimalist web portfolio for a local Sydney Architect.",
+    description:
+      "A minimalist web portfolio for a local Sydney Architect. It's fully responsive as well. ",
     tools: ["html5", "css3", "javascript"],
     imgSrc: zeatarch,
     srcCode: null,
